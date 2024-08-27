@@ -1,0 +1,13 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+div{
+    border: 1.5px solid black;
+    margin: 3%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}

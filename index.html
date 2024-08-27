@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <label>Login</label>
+    <input id="input" type="text" class="name" placeholder="Seu nome...">
+    <button onclick="name()">Save</button>
+
+    <div id="image">
+        <h1>Título</h1>
+    </div>
+    <div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#infopessoais">Informações Pessoais</a>
+                </li>
+                <li>
+                    <a href="#skills">Formação acadêmica</a>
+                </li>
+                <li>
+                    <a href="#experiencia">Experiência profissional</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <section id="infopessoais">
+            <h2>Informações Pessoais</h2>
+        </section>
+    </div>
+    <div>
+        <section id="skills">
+            <h2>Formação acadêmica</h2>
+        </section>
+    </div>
+    <div>
+        <section id="experiencia">
+            <h2>Experiencia profissional</h2>
+        </section>
+    </div>
+</body>
+<script>
+    function name() {
+        let name = document.getElementById("input");
+        let newname = name.value;
+        alert(newname);
+    }
+</script>
+</html>
